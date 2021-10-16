@@ -1,5 +1,8 @@
 # Android5.0+系统上使用Android12的SplashScreen API
 
+**请查看我的博客原文：** xxxxxxxx
+
+
 **工程中的示例apk下载地址，自己下载体验：**  
 
 | 静态图标启动页 | 动态图标启动页`(Android12系统有动画效果)` |
