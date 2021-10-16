@@ -8,12 +8,12 @@
 | **提取码：7gj2**  | **提取码：b6ce** |
 
 ## SplashScreen兼容库效果
-以快手App启动页效果为例子：
+模拟快手App启动页效果：
 
-<div align="center"><img width="200px" src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a10298859a69474fb037cfbc41eac612~tplv-k3u1fbpfcp-watermark.image?"/><br/><b>Android5.0 ~ Android11 效果</b> <div><img height="300px" src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2371544228104b7f8db55dae16edf274~tplv-k3u1fbpfcp-watermark.image?"/><br/><b>Android12 效果</b></div></div>
+<div align="center"><img height="300px" src="https://github.com/TheMelody/SplashScreenExample/blob/master/%E4%BD%8E%E7%89%88%E6%9C%AC_%E9%9D%99%E6%80%81%E5%9B%BE%E6%A0%87SplashScreen.gif?raw=true"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="300px" src="https://raw.githubusercontent.com/TheMelody/SplashScreenExample/master/Android12_%E9%9D%99%E6%80%81%E5%9B%BE%E6%A0%87SplashScreen.gif"/></div>
 
 
-## Android12系统上使用SplashScreen的动态效果
+## Android12系统上使用SplashScreen的动态中心图标的效果
 <div align="center">
-<img height="200px" src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/4f0a092412344396a86a2bf09295db1c~tplv-k3u1fbpfcp-watermark.image?"/><br/><b>Android12 动态启动页图标</b>
+<img height="300px" src="https://raw.githubusercontent.com/TheMelody/SplashScreenExample/master/Android12_%E5%8A%A8%E6%80%81%E5%9B%BE%E6%A0%87SplashScreen.gif"/><br/><b>Android12 动态启动页图标</b>
 </div>
