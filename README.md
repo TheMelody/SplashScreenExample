@@ -5,7 +5,7 @@
 
 **工程中的示例apk下载地址，自己下载体验：**  
 
-| 静态图标启动页 | 动态图标启动页`(Android12系统有动画效果)` |
+| 静态图标启动页(全版本) | 动态图标启动页`(全版本，只有Android12系统有动画效果)` |
 | --- | --- |
 | [**下载：SplashScreen快手启动页效果的apk001**](https://wws.lanzoui.com/iV0M5vexz7a) |  [**下载：SplashScreen快手启动页效果的apk002**](https://wws.lanzoui.com/ijLzZvezk1g)|
 | **提取码：7gj2**  | **提取码：b6ce** |
