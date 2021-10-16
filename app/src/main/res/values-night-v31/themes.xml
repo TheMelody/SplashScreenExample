@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Android12" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+
+        <!--android12 SplashScreen需要配置的属性-->
+        <item name="android:windowSplashScreenBackground">@color/window_common_background_color</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_animated_vector_center_icon</item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/splash_screen_icon_background</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_branding_image_bottom_icon</item>
+
+    </style>
+
+    <!--SplashScreen兼容库 v31，动态图标-->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@color/window_common_background_color</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_animated_vector_center_icon</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/splash_screen_icon_background</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_branding_image_bottom_icon</item>
+        <item name="postSplashScreenTheme">@style/Theme.App</item>
+    </style>
+
+    <!--SplashScreen兼容库 v31，静态图标-->
+    <!--<style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@color/window_common_background_color</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_kuaishou_api31</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="windowSplashScreenIconBackgroundColor">@android:color/transparent</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_kuaishou_branding_api31</item>
+        <item name="postSplashScreenTheme">@style/Theme.App</item>
+    </style>-->
+</resources>

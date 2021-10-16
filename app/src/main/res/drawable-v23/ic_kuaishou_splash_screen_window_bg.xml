@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:opacity="opaque">
+
+    <item android:drawable="@color/window_common_background_color"/>
+
+    <item
+        android:width="80dp"
+        android:height="91dp"
+        android:drawable="@drawable/ic_kuaishou"
+        android:gravity="top|center_horizontal"
+        android:top="200dp"/>
+
+    <item
+        android:bottom="100dp"
+        android:width="135dp"
+        android:height="68dp"
+        android:drawable="@drawable/ic_kuaishou_branding"
+        android:gravity="center|bottom"/>
+</layer-list>

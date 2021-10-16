@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SplashScreen</string>
+    <string name="example_content">你好Android%1$s</string>
+    <string name="example_kill_app">强制关闭App</string>
+</resources>

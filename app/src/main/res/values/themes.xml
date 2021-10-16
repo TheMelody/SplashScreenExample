@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--深色主题，去night目录找-->
+    <style name="Theme.App" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/window_common_background_color</item>
+        <item name="android:statusBarColor">@color/splash_screen_statusBarColor</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:navigationBarColor">@color/splash_screen_navigationBarColor</item>
+    </style>
+
+    <!--Android10.0系统效果还可以，这个主要是看你们产品怎么设计了-->
+    <!--不建议使用：SplashScreen兼容库，动画图标，android5.0 ~ android11，系统版本太低，有些系统表现效果不理想-->
+    <!--<style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@color/window_common_background_color</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_animated_vector_center_icon</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/splash_screen_icon_background</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.App</item>
+    </style>-->
+
+    <!--SplashScreen兼容库，静态背景，android5.0 ~ android11-->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">
+        <!--这里主要是针对6.0以下设备，让导航栏能看清楚-->
+        <item name="android:navigationBarColor">@color/splash_screen_navigationBarColor</item>
+        <!--给父主题设置窗口背景-->
+        <item name="android:windowBackground">@drawable/ic_kuaishou_splash_screen_window_bg</item>
+        <!--使用透明的drawable替换中心图标，如果不替换在部分旧系统会展示一个机器人-->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_transparent_svg</item>
+        <!--需要配置，不配置的话，启动页消失到主页显示的时候，有个过渡动画，会闪这个颜色的背景色-->
+        <item name="windowSplashScreenBackground">@color/window_common_background_color</item>
+        <item name="windowSplashScreenAnimationDuration">200</item>
+        <item name="postSplashScreenTheme">@style/Theme.App</item>
+    </style>
+</resources>

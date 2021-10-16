@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--针对android 6.0以上的设备-->
+    <color name="splash_screen_statusBarColor">@android:color/transparent</color>
+    <color name="splash_screen_navigationBarColor">@android:color/transparent</color>
+
+</resources>

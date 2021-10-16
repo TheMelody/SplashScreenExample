@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--闪屏中心图标后面的背景色-->
+    <color name="splash_screen_icon_background">#5D05AA</color>
+    <!--统一全局窗口背景色-->
+    <color name="window_common_background_color">#000000</color>
+
+
+</resources>
