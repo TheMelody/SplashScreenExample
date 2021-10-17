@@ -60,5 +60,9 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-compose:2.4.0-rc01"
     implementation 'androidx.core:core-splashscreen:1.0.0-alpha02'
 
+    //加载图片，这里仅用于闪屏页面的广告视图
+    implementation("io.coil-kt:coil-compose:1.4.0")
+
+
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
 }

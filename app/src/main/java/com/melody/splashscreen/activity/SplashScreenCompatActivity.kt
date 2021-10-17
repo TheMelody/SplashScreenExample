@@ -19,6 +19,9 @@ import com.melody.splashscreen.viewmodel.MainViewModel
 import com.melody.splashscreen.screen.ExampleScreen
 import com.melody.splashscreen.ui.theme.MyApplicationTheme
 import com.melody.splashscreen.utils.killAppAndRemoveTask
+import com.melody.splashscreen.screen.SplashAdScreen
+import androidx.compose.ui.platform.ComposeView
+import android.view.ViewGroup
 
 /**
  * 全版本兼容SplashScreen
@@ -45,7 +48,22 @@ class SplashScreenCompatActivity :ComponentActivity(),SplashScreen.OnExitAnimati
     }
 
     override fun onSplashScreenExit(splashScreenViewProvider: SplashScreenViewProvider) {
-        val flag = false //如果在themes.xml中配置了：静态背景, 改成true看效果
+        //有需要显示广告的可以参考下面的写法:
+        /*if(splashScreenViewProvider.view is ViewGroup){
+            //显示一个广告或者启动页推广,自己实践玩耍吧,建议把mainViewModel.mockDataLoading()延时降低，然后测试
+            val composeView = ComposeView(this@SplashScreenCompatActivity).apply {
+                setContent {
+                    SplashAdScreen {
+                        splashScreenViewProvider.remove()
+                    }
+                }
+            }
+            (splashScreenViewProvider.view as ViewGroup).addView(composeView)
+            return
+        }*/
+
+        //如果在themes.xml中配置了：静态背景, 改成true看效果
+        val flag = false
         if(Build.VERSION.SDK_INT < Build.VERSION_CODES.R || flag){
             // 使用alpha透明度动画过渡
             val splashScreenView = splashScreenViewProvider.view
@@ -59,6 +77,7 @@ class SplashScreenCompatActivity :ComponentActivity(),SplashScreen.OnExitAnimati
             alphaObjectAnimator.start()
             return
         }
+
         //下面是所有使用动态背景的，我们让中心图标做一个动画然后离开
         val splashScreenView = splashScreenViewProvider.view
         val iconView = splashScreenViewProvider.iconView
