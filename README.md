@@ -1,6 +1,6 @@
 # Android5.0+系统上使用Android12的SplashScreen API
 
-**请查看我的博客原文：** xxxxxxxx
+**请查看我的博客原文：** https://juejin.cn/post/7019839767441309733
 
 
 **工程中的示例apk下载地址，自己下载体验：**  
