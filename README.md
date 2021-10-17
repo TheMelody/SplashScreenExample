@@ -1,4 +1,4 @@
-# Android5.0+系统上使用Android12的SplashScreen API
+# 所有Android系统上使用Android12的SplashScreen API功能
 
 **请查看我的博客原文：** https://juejin.cn/post/7019839767441309733
 
