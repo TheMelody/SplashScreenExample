@@ -20,3 +20,8 @@
 <div align="center">
 <img height="300px" src="https://raw.githubusercontent.com/TheMelody/SplashScreenExample/master/Android12_%E5%8A%A8%E6%80%81%E5%9B%BE%E6%A0%87SplashScreen.gif"/><br/><b>Android12 动态启动页图标</b>
 </div>
+
+## SplashScreen 实践开屏广告/推广页
+<div align="center">
+<img height="300px" src="https://raw.githubusercontent.com/TheMelody/SplashScreenExample/master/%E5%AE%9E%E8%B7%B5%EF%BC%9A%E5%90%AF%E5%8A%A8%E9%A1%B5-%E5%BC%80%E5%B1%8F%E5%B9%BF%E5%91%8A.gif"/><br/><b>实践 - 启动页添加广告或者推广页</b>
+</div>
